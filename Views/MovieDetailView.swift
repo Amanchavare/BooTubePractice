@@ -36,25 +36,3 @@ struct MovieDetailView: View {
         .foregroundColor(.white)
     }
 }
-struct MovieCardView: View {
-    let movie: Movie
-
-    var body: some View {
-        VStack {
-            AsyncImage(url: URL(string: movie.poster)) { image in
-                image
-                    .resizable()
-                    .scaledToFit()
-                    .frame(height: 200)
-            } placeholder: {
-                ProgressView()
-            }
-            Text(movie.title)
-                .font(.headline)
-                .foregroundColor(.white)
-                .padding(.top, 8)
-        }
-        .background(Color.black.opacity(0.7))
-        .cornerRadius(10)
-    }
-}

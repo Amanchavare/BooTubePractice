@@ -15,7 +15,8 @@ struct MovieCategoryGridView: View {
             ForEach(movies) { movie in
                 NavigationLink(destination: MovieDetailView(movie: movie)) {
                     VStack {
-                        AsyncImage(url: URL(string: movie.poster)) { image in image
+                        AsyncImage(url: URL(string: movie.poster)) { image in
+                            image
                                 .resizable()
                                 .aspectRatio(contentMode: .fill)
                         } placeholder: {
@@ -29,7 +30,6 @@ struct MovieCategoryGridView: View {
                             .lineLimit(1)
                             .padding(.top, 5)
                     }
-                    
                     .background(Color.black.opacity(0.7))
                     .cornerRadius(10)
                 }
