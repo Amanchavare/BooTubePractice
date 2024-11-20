@@ -29,13 +29,6 @@ struct Movie: Codable, Identifiable {
         case year = "Year"
         case poster = "Poster"
     }
-
-}
-struct Movie2: Identifiable, Codable {
-    let id: Int64
-    let title: String
-    let poster: String // URL for the movie poster
-    let rating: Double // Optional: for display purposes
 }
 
 

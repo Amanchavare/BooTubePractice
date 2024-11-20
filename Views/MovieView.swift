@@ -21,13 +21,6 @@ struct MovieView: View {
                     
                     MovieCarouselView(movies: viewModel.movies)
                     
-                    Text("Recomendations")
-                        .font(.title2)
-                        .bold()
-                        .padding(.leading, 16)
-                    
-                    MovieCategoryGridView(movies: viewModel.movies)
-                    
                     Text("New Releases")
                         .font(.title2)
                         .bold()

@@ -1,0 +1,24 @@
+{
+    "fileFormatVersion": "1.0.0",
+    "itemInfoEntries": {
+        "4301C0F9-1335-4757-BFDD-2B91B0CBF62A": {
+            "author": "com.apple.CoreML",
+            "description": "CoreML Model Specification",
+            "name": "BHOOTUBE 1.mlmodel",
+            "path": "com.apple.CoreML/BHOOTUBE 1.mlmodel"
+        },
+        "9B265E35-4572-4A88-9806-9CA9436672F0": {
+            "author": "com.apple.CoreML",
+            "description": "External Metadata Overlay",
+            "name": "Metadata.json",
+            "path": "com.apple.CoreML/Metadata.json"
+        },
+        "F6B4F3DD-A5B1-412C-8BCC-B1DB73DCAA26": {
+            "author": "com.apple.CoreML",
+            "description": "External FeatureDescription Overlay",
+            "name": "FeatureDescriptions.json",
+            "path": "com.apple.CoreML/FeatureDescriptions.json"
+        }
+    },
+    "rootModelIdentifier": "4301C0F9-1335-4757-BFDD-2B91B0CBF62A"
+}
